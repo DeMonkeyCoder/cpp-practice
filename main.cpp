@@ -10,12 +10,8 @@ class circle;
 class square;
 class  Shape{
 public:
-    //virtual void add()=0;
     virtual double surface()=0;
     virtual  void draw()=0;
-
-//protected:
-  //  Shape(){}
 };
 
 class ListShape{
