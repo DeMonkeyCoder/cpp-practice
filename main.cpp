@@ -20,7 +20,7 @@ protected:
     vector<Shape*>list_of_shape;
 public:
     ListShape(){}
-    Shape* find(int S){
+    Shape* find(double S){
         for (auto i=list_of_shape.begin(); i <list_of_shape.end() ; i++) {
             if ((*i)->surface()==S) {
                 return *i;
